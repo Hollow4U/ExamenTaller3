@@ -8,13 +8,10 @@ namespace ExamenTienda
 {
     class Enemy : NPC
     {
-        public Enemy(string name, float hp, float dmg, float ac : base(string name, float hp, float dmg, float ac))
+        public Enemy(string name, float hp, float dmg, float ac) : base(name, hp, dmg, ac)
         {
-            this.name = name;
-            this.hp = hp;
-            this dmg = dmg;
-            this ac = ac;
         }
+
         public virtual string GetName()
         {
             Console.WriteLine("Escribe el nombre del enemigo");

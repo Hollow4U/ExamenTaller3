@@ -9,12 +9,9 @@ namespace ExamenTienda
     class Player : Characters
     {
 
-        public Player(string name, float hp, float dmg, float ac : base(string name, float hp, float dmg, float ac))
+        public Player(string name, float hp, float dmg, float ac) : base(name, hp, dmg, ac)
         {
             name = "Vendedor";
-            this.hp = hp;
-            this dmg = dmg;
-            this ac = ac;
         }
 
         public virtual float GetHP()

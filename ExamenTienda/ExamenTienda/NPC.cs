@@ -9,11 +9,8 @@ namespace ExamenTienda
     class NPC : Characters
     {
 
-        public NPC(string name, float hp, float dmg, float ac : base(string name, float hp, float dmg, float ac))
+        public NPC(string name, float hp, float dmg, float ac) : base(name, hp, dmg, ac)
         {
-            this.hp = hp;
-            this dmg = dmg;
-            this ac = ac;
         }
 
         public virtual float GetHP()

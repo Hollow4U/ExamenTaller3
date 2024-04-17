@@ -24,11 +24,9 @@ namespace ExamenTienda
         }
 
 
-        public void addItem()
+        public void addItem(Items items)
         {
-            inventory.Add(new Items(Items.Getname())
+            inventory.Add(items);
         }
-
-
     }
 }
