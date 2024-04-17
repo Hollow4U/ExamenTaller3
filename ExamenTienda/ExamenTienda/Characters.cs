@@ -8,11 +8,11 @@ namespace ExamenTienda
 {
     class Characters
     {
-        protected string name;
-        protected float hp;
-        protected float dmg;
-        protected float ac;
-        protected List <Items> inventory;
+        public string name;
+        public float hp;
+        public float dmg;
+        public float ac;
+        public List <Items> inventory;
 
         public Characters(string name, float hp, float dmg, float ac)
         {

@@ -20,7 +20,6 @@ namespace ExamenTienda
             hp = float.Parse(Console.ReadLine());
 
             return hp;
-
         }
 
         public virtual float GetDMG()

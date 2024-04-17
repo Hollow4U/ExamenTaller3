@@ -8,8 +8,8 @@ namespace ExamenTienda
 {
     class Items
     {
-        protected string name;
-        protected float price;
+        public string name;
+        public float price;
 
         public Items(string name, float price)
         {
